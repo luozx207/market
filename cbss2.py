@@ -36,8 +36,8 @@ dic = {'108':('_p90311370','_p90311370k51984422','showcolor90311370','_p90311370
        }
 
 def login(driver):
-    driver.find_element_by_id('STAFF_ID').send_keys('DSK32500')
-    driver.find_element_by_id('LOGIN_PASSWORD').send_keys('aaaBBB8888')
+    driver.find_element_by_id('STAFF_ID').send_keys('')
+    driver.find_element_by_id('LOGIN_PASSWORD').send_keys('')
     province=driver.find_element_by_id('LOGIN_PROVINCE_CODE')
     Select(province).select_by_value('51')
     vcode = input("verifyCode:")
