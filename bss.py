@@ -34,8 +34,8 @@ dic = {
 }
 def login(driver):
     driver.find_element_by_id('STAFF_ID').clear()
-    driver.find_element_by_id('STAFF_ID').send_keys('DSK32500')
-    driver.find_element_by_id('PASSWORD').send_keys('aaaBBB8888')
+    driver.find_element_by_id('STAFF_ID').send_keys('')
+    driver.find_element_by_id('PASSWORD').send_keys('')
     driver.find_element_by_id('geneCode').click()
     vcode = input("verifyCode:")
     driver.find_element_by_id('SMS_VERIFY_CODE').send_keys(vcode)
