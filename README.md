@@ -1,10 +1,13 @@
-﻿# market
-webdriver自动填表工具箱
+### An automated program to switch users' mobile plans
 
-环境：windows7(64位/32位)+python3.6
+- For China United Network Communications Corporation
 
-python库：selenium、xlrd、xlwt
+webdriver automatic form filling toolbox
 
-运行前要先下载对应的浏览器driver，并放到浏览器和python的根目录下
+Environment: windows7(64-bit/32-bit)+python3.6
 
-使用前要将数据按read中读取的格式放入一个excel表中。cbss2用于4G转4G，bss用于3G转3G
+Python libraries: selenium, xlrd, xlwt
+
+Before running, you must first download the corresponding browser driver and put it in the root directory of the browser and python
+
+Before use, the data must be put into an excel table in the format read in read. cbss2 is used to convert 4G to 4G, bss is used to convert 3G to 3G
